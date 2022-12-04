@@ -37,4 +37,7 @@ Plate.init(
   }
 );
 
-Plate.sync()
+
+  Plate.sync().catch((error) => {
+  console.log('platitos>>>>',error)
+})
