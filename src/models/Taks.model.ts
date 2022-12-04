@@ -44,4 +44,7 @@ Taks.init(
 );
 
  
-Taks.sync()
+
+  Taks.sync().catch((error)=>{
+    console.log('tareas >>>>>',error)
+  })
